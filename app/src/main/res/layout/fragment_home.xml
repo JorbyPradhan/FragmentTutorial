@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:background="@color/colorAccent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".HomeFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top|center"
+        android:text="Blank System"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_dollar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:text="View Transactions"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_Send"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:text="Send Money"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_balance"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:text="View Balance"
+        android:textSize="20sp" />
+</LinearLayout>
